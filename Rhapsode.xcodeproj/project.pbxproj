@@ -14,6 +14,13 @@
 		1536BF6124375E54002B126D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1536BF6024375E54002B126D /* Preview Assets.xcassets */; };
 		1536BF6424375E54002B126D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1536BF6224375E54002B126D /* LaunchScreen.storyboard */; };
 		1536BF8E24376149002B126D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF8D24376149002B126D /* Database.swift */; };
+		1536BF902437942E002B126D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF8F2437942E002B126D /* LoginView.swift */; };
+		1536BF922437949E002B126D /* PassWordForgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF912437949D002B126D /* PassWordForgetView.swift */; };
+		1536BF94243794FD002B126D /* CreateProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF93243794FD002B126D /* CreateProfilView.swift */; };
+		1536BF96243795AD002B126D /* PassWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF95243795AD002B126D /* PassWordView.swift */; };
+		1536BF9824379604002B126D /* ValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF9724379604002B126D /* ValidationView.swift */; };
+		1536BF9A2437963D002B126D /* ThankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF992437963D002B126D /* ThankView.swift */; };
+		1536BF9C24379681002B126D /* AccueilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536BF9B24379681002B126D /* AccueilView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		1536BF6324375E54002B126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1536BF6524375E54002B126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1536BF8D24376149002B126D /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		1536BF8F2437942E002B126D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1536BF912437949D002B126D /* PassWordForgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordForgetView.swift; sourceTree = "<group>"; };
+		1536BF93243794FD002B126D /* CreateProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfilView.swift; sourceTree = "<group>"; };
+		1536BF95243795AD002B126D /* PassWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordView.swift; sourceTree = "<group>"; };
+		1536BF9724379604002B126D /* ValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationView.swift; sourceTree = "<group>"; };
+		1536BF992437963D002B126D /* ThankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankView.swift; sourceTree = "<group>"; };
+		1536BF9B24379681002B126D /* AccueilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,13 @@
 				1536BF5924375E53002B126D /* SceneDelegate.swift */,
 				1536BF5B24375E53002B126D /* ContentView.swift */,
 				1536BF8D24376149002B126D /* Database.swift */,
+				1536BF8F2437942E002B126D /* LoginView.swift */,
+				1536BF93243794FD002B126D /* CreateProfilView.swift */,
+				1536BF912437949D002B126D /* PassWordForgetView.swift */,
+				1536BF9724379604002B126D /* ValidationView.swift */,
+				1536BF95243795AD002B126D /* PassWordView.swift */,
+				1536BF992437963D002B126D /* ThankView.swift */,
+				1536BF9B24379681002B126D /* AccueilView.swift */,
 				1536BF5D24375E54002B126D /* Assets.xcassets */,
 				1536BF6224375E54002B126D /* LaunchScreen.storyboard */,
 				1536BF6524375E54002B126D /* Info.plist */,
@@ -151,8 +172,15 @@
 			files = (
 				1536BF5824375E53002B126D /* AppDelegate.swift in Sources */,
 				1536BF5A24375E53002B126D /* SceneDelegate.swift in Sources */,
+				1536BF94243794FD002B126D /* CreateProfilView.swift in Sources */,
+				1536BF96243795AD002B126D /* PassWordView.swift in Sources */,
+				1536BF922437949E002B126D /* PassWordForgetView.swift in Sources */,
 				1536BF8E24376149002B126D /* Database.swift in Sources */,
+				1536BF9824379604002B126D /* ValidationView.swift in Sources */,
+				1536BF902437942E002B126D /* LoginView.swift in Sources */,
 				1536BF5C24375E53002B126D /* ContentView.swift in Sources */,
+				1536BF9A2437963D002B126D /* ThankView.swift in Sources */,
+				1536BF9C24379681002B126D /* AccueilView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
